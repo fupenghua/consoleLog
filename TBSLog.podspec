@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 console log in debug
                        DESC
 
-  s.homepage         = 'https://github.com/390908980@qq.com/TBSLog'
+  s.homepage         = 'git@github.com:fupenghua/consoleLog.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '390908980@qq.com' => 'penghua.fu@thebeastshop.com' }
@@ -29,7 +29,7 @@ console log in debug
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'TBSLog/**/*'
+  s.source_files = 'TBSLog/*'
  
 
 end
