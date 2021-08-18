@@ -30,6 +30,6 @@ console log in debug
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'TBSLog/*.{h,m}'
-  s.public_header_files = 'TBSLog/TBSLog'
+  s.public_header_files = 'TBSLog/TBSLog.h'
 
 end
