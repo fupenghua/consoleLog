@@ -25,7 +25,7 @@ console log in debug
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '390908980@qq.com' => 'penghua.fu@thebeastshop.com' }
-  s.source           = { :git => 'https://github.com/390908980@qq.com/TBSLog.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:fupenghua/consoleLog.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
 
