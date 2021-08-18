@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBSLog'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'iOS log'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ console log in debug
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'TBSLog/*'
- 
+  s.source_files = 'TBSLog/*.{h,m}'
+  s.public_header_files = 'TBSLog/TBSLog'
 
 end
